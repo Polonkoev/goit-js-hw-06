@@ -37,8 +37,8 @@ const listUl = document.querySelector("ul");
 const imgEl = images
   .map(
     ({ url, alt }) =>
-      `<li><img src="${url}" width='400' heigth='300', alt="${alt}"></li>`
+      `<li><img src="${url}" width='504' height='282', alt="${alt}"></li>`
   )
   .join("");
-console.log(imgEl);
+
 listUl.insertAdjacentHTML("afterbegin", imgEl);

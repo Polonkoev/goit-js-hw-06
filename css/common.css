@@ -32,4 +32,5 @@ button {
 .item-position {
   display: flex;
   flex-direction: row;
+  
 }
