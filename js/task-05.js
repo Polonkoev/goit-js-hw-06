@@ -5,13 +5,12 @@ function makeText(text) {
   outputArea.textContent = text.target.value;
 }
 
-const res = inputArea.addEventListener("input", makeText);
-console.log(outputArea.textContent.length);
+inputArea.addEventListener("input", makeText);
 
-function blurFoo (){
-if(outputArea.textContent === ''){
-  outputArea.textContent = 'Anonymous'}
+function blurFoo() {
+  if (outputArea.textContent === "") {
+    outputArea.textContent = "Anonymous";
+  }
 }
 
-inputArea.addEventListener('blur', blurFoo)
-
+inputArea.addEventListener("blur", blurFoo);
