@@ -28,5 +28,5 @@ ingredients.map((elem) => {
   let element = document.createElement("li");
   element.className = "item";
   element.innerHTML = elem;
-  ul.append(element);
+  listEl.append(element);
 });
