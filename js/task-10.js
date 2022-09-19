@@ -29,7 +29,7 @@ function createInputVal(num) {
 
 function destroyEl() {
   divEl.innerHTML = "";
-  inputEl.value = 0;
+  inputEl.value = '';
   inputVal = 0;
 }
 inputEl.addEventListener("input", createInputVal);
