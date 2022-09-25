@@ -37,7 +37,7 @@ const listUl = document.querySelector("ul");
 const imgEl = images
   .map(
     ({ url, alt }) =>
-      `<li><img src="${url}" width='504' height='282', alt="${alt}"></li>`
+      `<li><img src="${url}" width='504' height='282' alt="${alt}"></li>`
   )
   .join("");
 

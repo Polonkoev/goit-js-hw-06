@@ -7,10 +7,10 @@ function makeText(text) {
 
 inputArea.addEventListener("input", makeText);
 
-function blurFoo() {
+function inputFoo() {
   if (outputArea.textContent === "") {
     outputArea.textContent = "Anonymous";
   }
 }
 
-inputArea.addEventListener("blur", blurFoo);
+inputArea.addEventListener("input", inputFoo);

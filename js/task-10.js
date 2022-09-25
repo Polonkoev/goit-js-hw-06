@@ -27,7 +27,7 @@ function createBoxes(amount) {
 }
 
 function destroyEl() {
-  divEl.innerHTML = "";
+  createDivEl.innerHTML = "";
   inputEl.value = "";
   divSize = 20;
 }

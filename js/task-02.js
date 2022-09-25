@@ -15,18 +15,20 @@ const listEl = document.getElementById("ingredients");
 //   listEl.append(element);
 // }
 
-// const createLi = ingredients.map((elem) => {
-//   const liElement = document.createElement("li");
-//   liElement.textContent = elem;
-//   liElement.classList = "item";
-//   return liElement;
+const createLi = ingredients.map((elem) => {
+  const liElement = document.createElement("li");
+  liElement.textContent = elem;
+  liElement.classList = "item";
+  return liElement;
+});
+
+listEl.append(...createLi);
+
+// ingredients.map((elem) => {
+//   let element = document.createElement("li");
+//   element.className = "item";
+//   element.innerHTML = elem;
+//   listEl.append(element);
 // });
 
-// listEl.append(...createLi);
 
-ingredients.map((elem) => {
-  let element = document.createElement("li");
-  element.className = "item";
-  element.innerHTML = elem;
-  listEl.append(element);
-});

@@ -4,12 +4,14 @@ function getRandomHexColor() {
 
 const bodyEl = document.querySelector('body')
 const buttonEl = document.querySelector('.change-color')
+const txtColor = document.querySelector('.color')
 
 buttonEl.addEventListener('click', changeColor)
 
 function changeColor(){
   bodyEl.style.backgroundColor = getRandomHexColor();
-  console.log("Код цвета: " + getRandomHexColor());
+  txtColor.textContent = bodyEl.style.backgroundColor
+ 
 }
 
 // buttonEl.addEventListener('click',  () => {

@@ -19,4 +19,4 @@ const decFoo = document.querySelector('button[data-action="decrement"]');
 decFoo.addEventListener('click', decrementFoo)
 
 const incFoo = document.querySelector('button[data-action="increment"]');
-incFoo.addEventListener('click', decrementFoo)
+incFoo.addEventListener('click', incrementFoo)
